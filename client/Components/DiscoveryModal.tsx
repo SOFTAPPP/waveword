@@ -77,7 +77,7 @@ const DiscoveryModal: React.FC<DiscoveryModalProps> = ({ isOpen, onClose }) => {
     const formData = new FormData(form.current);
     const accessKey = import.meta.env.VITE_WEB3FORMS_KEY || "d6d9de9e-820b-45e5-af3f-5603b1900dca";
     formData.append("access_key", accessKey);
-    formData.append("subject", "New Lead Inquiry - Waveworld");
+    formData.append("subject", "New Lead Inquiry - Waveword");
     
     // Add custom state fields so Web3Forms captures them
     formData.append("industry", industry);
@@ -91,7 +91,7 @@ const DiscoveryModal: React.FC<DiscoveryModalProps> = ({ isOpen, onClose }) => {
     // Save to Local Storage for in-website dashboard
     try {
       const existingMessages = JSON.parse(
-        localStorage.getItem("waveworld_messages") || "[]",
+        localStorage.getItem("waveword_messages") || "[]",
       );
       setReadinessScore(score);
 
@@ -111,7 +111,7 @@ const DiscoveryModal: React.FC<DiscoveryModalProps> = ({ isOpen, onClose }) => {
         readinessScore: score,
       };
       localStorage.setItem(
-        "waveworld_messages",
+        "waveword_messages",
         JSON.stringify([newLead, ...existingMessages]),
       );
     } catch (e) {
@@ -157,7 +157,7 @@ const DiscoveryModal: React.FC<DiscoveryModalProps> = ({ isOpen, onClose }) => {
             <h2>
               What are we <span>Building Today?</span>
             </h2>
-            <p>Select a service to start your journey with Waveworld.</p>
+            <p>Select a service to start your journey with Waveword.</p>
             <div className="discovery-grid">
               {services.map((s) => (
                 <div

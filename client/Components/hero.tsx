@@ -18,7 +18,7 @@ const Hero = () => {
             
             {/* Window 1: Branding */}
             <div className="hologram-overlay glass window-branding">
-              <div className="hologram-brand">WAVEWORLD</div>
+              <div className="hologram-brand">WAVEWORD</div>
               <div className="hologram-tag">SYSTEM_NAME</div>
             </div>
 
@@ -51,7 +51,7 @@ const Hero = () => {
               Building the Future of the <span>Internet World</span>
             </h1>
             <p>
-              Waveworld is a leading digital agency dedicated to creating
+              Waveword is a leading digital agency dedicated to creating
               stunning websites and innovative digital solutions for businesses
               around the globe.
             </p>

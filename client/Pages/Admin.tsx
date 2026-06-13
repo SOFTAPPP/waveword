@@ -19,7 +19,7 @@ const Admin = () => {
 
   useEffect(() => {
     const loadMessages = () => {
-      const saved = localStorage.getItem("waveworld_messages");
+      const saved = localStorage.getItem("waveword_messages");
       if (saved) {
         setMessages(JSON.parse(saved));
       }
@@ -43,19 +43,19 @@ const Admin = () => {
   const deleteMessage = (id: number) => {
     const updated = messages.filter((m) => m.id !== id);
     setMessages(updated);
-    localStorage.setItem("waveworld_messages", JSON.stringify(updated));
+    localStorage.setItem("waveword_messages", JSON.stringify(updated));
   };
 
   const updateMessageStatus = (id: number, status: Message["status"]) => {
     const updated = messages.map((m) => (m.id === id ? { ...m, status } : m));
     setMessages(updated);
-    localStorage.setItem("waveworld_messages", JSON.stringify(updated));
+    localStorage.setItem("waveword_messages", JSON.stringify(updated));
   };
 
   const clearAll = () => {
     if (window.confirm("Are you sure you want to clear all messages?")) {
       setMessages([]);
-      localStorage.removeItem("waveworld_messages");
+      localStorage.removeItem("waveword_messages");
     }
   };
 
@@ -64,7 +64,7 @@ const Admin = () => {
       <div className="admin-login-overlay">
         <div className="admin-login-card glass">
           <h2>
-            Waveworld <span>Admin</span>
+            Waveword <span>Admin</span>
           </h2>
           <p>Please enter your private access code to view messages.</p>
           <form onSubmit={handleLogin}>

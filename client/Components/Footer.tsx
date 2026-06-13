@@ -187,7 +187,7 @@ const Footer = () => {
 
       <div className="footer-bottom">
         <div className="container bottom-content">
-          <p>© {currentYear} Waveworld. All rights reserved.</p>
+          <p>© {currentYear} Waveword. All rights reserved.</p>
           <div className="bottom-links">
             <a href="#privacy">Privacy Policy</a>
             <a href="#terms">Terms of Service</a>

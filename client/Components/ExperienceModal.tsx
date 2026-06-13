@@ -32,7 +32,7 @@ const ExperienceModal: React.FC<ExperienceModalProps> = ({ isOpen, onClose }) =>
         <button className="close-btn" onClick={onClose}>×</button>
         
         <div className="experience-header">
-          <h2>Experience <span>Waveworld Innovation</span></h2>
+          <h2>Experience <span>Waveword Innovation</span></h2>
           <p>Peek behind the curtain of our digital engineering studio.</p>
         </div>
 

@@ -2,7 +2,6 @@ import { useRef, useMemo, Suspense } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { EffectComposer, Bloom } from "@react-three/postprocessing";
 import {
-  Sphere,
   Float,
   Stars,
   PerspectiveCamera,
@@ -63,7 +62,7 @@ const LocationPin = () => {
       <Html distanceFactor={10} position={[0, 0.25, 0]}>
         <div className="location-label">
           <div className="label-dot"></div>
-          WAVEWORLD INDIA
+          WAVEWORD INDIA
         </div>
       </Html>
     </group>

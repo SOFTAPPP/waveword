@@ -17,13 +17,13 @@ const Projects = () => {
     
     setTimeout(() => {
       try {
-        const existingFeedbacks = JSON.parse(localStorage.getItem('waveworld_feedbacks') || '[]');
+        const existingFeedbacks = JSON.parse(localStorage.getItem('waveword_feedbacks') || '[]');
         const newFeedback = {
           id: Date.now(),
           ...reviewForm,
           timestamp: new Date().toISOString()
         };
-        localStorage.setItem('waveworld_feedbacks', JSON.stringify([newFeedback, ...existingFeedbacks]));
+        localStorage.setItem('waveword_feedbacks', JSON.stringify([newFeedback, ...existingFeedbacks]));
         
         setSubmitStatus('success');
         setReviewForm({ ...reviewForm, name: "", comment: "", rating: 5 });

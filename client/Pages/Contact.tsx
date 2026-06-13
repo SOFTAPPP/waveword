@@ -7,7 +7,7 @@ const Contact = () => {
 
   useEffect(() => {
     try {
-      const storedFeedbacks = JSON.parse(localStorage.getItem('waveworld_feedbacks') || '[]');
+      const storedFeedbacks = JSON.parse(localStorage.getItem('waveword_feedbacks') || '[]');
       setFeedbacks(storedFeedbacks);
     } catch (e) {
       console.error(e);
@@ -26,7 +26,7 @@ const Contact = () => {
 
     // Save to Local Storage for in-website dashboard
     try {
-      const existingMessages = JSON.parse(localStorage.getItem('waveworld_messages') || '[]');
+      const existingMessages = JSON.parse(localStorage.getItem('waveword_messages') || '[]');
       const newMessage = {
         id: Date.now(),
         name: formData.get("name"),
@@ -35,7 +35,7 @@ const Contact = () => {
         timestamp: new Date().toLocaleString(),
         type: 'Contact Inquiry'
       };
-      localStorage.setItem('waveworld_messages', JSON.stringify([newMessage, ...existingMessages]));
+      localStorage.setItem('waveword_messages', JSON.stringify([newMessage, ...existingMessages]));
     } catch (e) {
       console.error(e);
     }

@@ -11,7 +11,7 @@ const Employees = () => {
     {
       name: "Aritra",
       role: "Backend Web Developer",
-      bio: "Crafting visually stunning and intuitive digital experiences. Sarah ensures that every Waveworld project is both beautiful and functional.",
+      bio: "Crafting visually stunning and intuitive digital experiences. Sarah ensures that every Waveword project is both beautiful and functional.",
       skills: ["Node.js", "PostgreSQL", "Scalability"],
       socials: { linkedin: "#", github: "#", twitter: "#" },
       icon: "🚀",
@@ -24,7 +24,7 @@ const Employees = () => {
       <section className="employees-hero">
         <div className="container">
           <h1 className="section-title">
-            The Minds <span>Behind Waveworld</span>
+            The Minds <span>Behind Waveword</span>
           </h1>
           <p className="section-desc">
             We are a group of dedicated professionals committed to pushing the

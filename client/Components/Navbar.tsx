@@ -28,7 +28,7 @@ export const Navbar = () => {
     <nav className={`navbar glass ${isScrolled ? "scrolled" : ""}`}>
       <div className="container nav-content">
         <a href="/" className="logo" style={{ display: 'flex', alignItems: 'center', gap: '8px', textDecoration: 'none', color: 'inherit' }}>
-          <img src={logoImg} alt="Waveworld Logo" style={{ height: '32px', width: 'auto' }} />
+          <img src={logoImg} alt="Waveword Logo" style={{ height: '32px', width: 'auto' }} />
           Wave<span>world</span>
         </a>
 

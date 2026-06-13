@@ -5,7 +5,7 @@ const About = () => {
       {/* About Hero */}
       <section className="about-hero">
         <div className="container">
-          <h1 className="section-title">The Story of <span>Waveworld</span></h1>
+          <h1 className="section-title">The Story of <span>Waveword</span></h1>
           <p className="section-desc">
             From a university vision to a digital reality.
           </p>
@@ -19,7 +19,7 @@ const About = () => {
             <div className="essay-content">
               <h2 style={{ color: 'var(--primary)', marginBottom: '2rem', fontSize: '2.5rem' }}>The Founder's Journey</h2>
               <p>
-                In 2023, while navigating the rigorous academic landscape of <strong>Techno India University</strong>, our founder, <strong>Deep Paul</strong>, saw an opportunity that transcended the classroom. He didn't just want to study technology; he wanted to harness it to empower businesses in an ever-evolving digital world. This spark of ambition was the beginning of what we now know as Waveworld.
+                In 2023, while navigating the rigorous academic landscape of <strong>Techno India University</strong>, our founder, <strong>Deep Paul</strong>, saw an opportunity that transcended the classroom. He didn't just want to study technology; he wanted to harness it to empower businesses in an ever-evolving digital world. This spark of ambition was the beginning of what we now know as Waveword.
               </p>
               <br />
               <p>
@@ -31,7 +31,7 @@ const About = () => {
               </p>
               <br />
               <p>
-                Persistence eventually met opportunity. The breakthrough project arrived, and the results spoke for themselves. Today, Waveworld stands as a testament to those six months of grit. What started as a student's vision at Techno India University has evolved into a premium digital agency committed to excellence. Our story is one of resilience, proving that with enough passion and dedication, any digital vision can be brought to life.
+                Persistence eventually met opportunity. The breakthrough project arrived, and the results spoke for themselves. Today, Waveword stands as a testament to those six months of grit. What started as a student's vision at Techno India University has evolved into a premium digital agency committed to excellence. Our story is one of resilience, proving that with enough passion and dedication, any digital vision can be brought to life.
               </p>
             </div>
           </div>
