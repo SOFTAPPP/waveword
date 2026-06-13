@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="container footer-content">
         <div className="footer-section footer-brand">
           <div className="logo">
-            Wave<span>world</span>
+            Wave<span>word</span>
           </div>
           <p className="footer-note">
             Empowering businesses through digital perfection. We craft seamless

@@ -1,7 +1,7 @@
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import "./Navbar.css";
 import logoImg from "../logo/image.png";
+import "./Navbar.css";
 
 export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -27,9 +27,23 @@ export const Navbar = () => {
   return (
     <nav className={`navbar glass ${isScrolled ? "scrolled" : ""}`}>
       <div className="container nav-content">
-        <a href="/" className="logo" style={{ display: 'flex', alignItems: 'center', gap: '8px', textDecoration: 'none', color: 'inherit' }}>
-          <img src={logoImg} alt="Waveword Logo" style={{ height: '32px', width: 'auto' }} />
-          Wave<span>world</span>
+        <a
+          href="/"
+          className="logo"
+          style={{
+            display: "flex",
+            alignItems: "center",
+            gap: "8px",
+            textDecoration: "none",
+            color: "inherit",
+          }}
+        >
+          <img
+            src={logoImg}
+            alt="Waveword Logo"
+            style={{ height: "32px", width: "auto" }}
+          />
+          Wave<span>word</span>
         </a>
 
         {/* Desktop Menu */}

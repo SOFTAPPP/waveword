@@ -70,7 +70,7 @@ const Main = () => {
     },
     {
       title: "Seamless Motion",
-      desc: "Fluid transitions and physics-based animations that reflect the natural world in digital spaces.",
+      desc: "Fluid transitions and physics-based animations that reflect the natural word in digital spaces.",
       icon: "⚡",
       color: "#06b6d4"
     }
